@@ -52,7 +52,7 @@ describe 'Song' do
     end
 
     it 'returns nil if the song does not have an artist' do
-      expect(song.artist_name).to eq nil
+      expect(song2.artist_name).to eq nil
     end
   end
 end
